@@ -3,6 +3,10 @@
   animation: dropDown 500ms ease-in-out forwards;
 }
 
+.navbar-item.is-hoverable:hover .navbar-dropdown{
+  transform-origin: top left;
+}
+
 @keyframes dropDown {
   0% {
     transform: scaleY(0)
