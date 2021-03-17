@@ -20,3 +20,8 @@
     transform: scaleY(1)
   }
 }
+
+main {
+  background-color: lightgrey;
+  height: calc(100vh - #{$navbar-height});
+}
